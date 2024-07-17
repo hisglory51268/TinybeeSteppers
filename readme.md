@@ -18,7 +18,7 @@ access to IO144-IO151 using the coomands getIO() and setIO() IO144-IO151 have be
 
 
 **Example**
-
+//
 #include <tinybeeSteppers.h>
 
 unsigned long fwdtimeout = 0;
