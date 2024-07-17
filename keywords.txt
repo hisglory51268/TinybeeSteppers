@@ -1,0 +1,19 @@
+TinybeeSteppers   KEYWORD1
+
+begin   KEYWORD2
+
+Step    KEYWORD2
+
+set_powersave KEYWORD2
+
+set_speed KEYWORD2
+
+set_default_direction KEYWORD2
+
+setIO KEYWORD2
+
+getIO KEYWORD2
+
+handle_TBS_Steppers KEYWORD2
+
+debugPinvalues KEYWORD2
