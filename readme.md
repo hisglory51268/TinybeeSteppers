@@ -1,21 +1,11 @@
 **Stepper Library for use with mkstinybee**
 
 Library for managing stepper motors connected to a MKS tinybee
-because all I/Os 128-151 are sent through the shift registers 74HC595 it was easier create a library handle the steppers and the I/Os 144-151 as a standard library like acellstepper would not work.
+Because all I/Os 128-151 are sent through the shift registers (74HC595), a standard library like acellstepper.h or stepper.h would not work.
 
-The I/Os are outputs only. Designed for the MKS tinybee however the library could be modified to work with other boards using shift registers as well
-also the motors have been renamed to 1-5
-access to IO144-IO151 using the coomands getIO() and setIO() IO144-IO151 have been remapped to 16-23 the actuall number to the shift registers
-
-= Stepper Library for use with mkstinybee =
-
-Library for managing stepper motors connected to a MKS tinybee
-because all I/Os 128-151 are sent through the shift registers 74HC595 it was easier create a library handle the steppers and the I/Os 144-151 as a standard library like acellstepper would not work.
-
-The I/Os are outputs only. Designed for the MKS tinybee however the library could be modified to work with other boards using shift registers as well
-also the motors have been renamed to 1-5
-access to IO144-IO151 using the coomands getIO() and setIO() IO144-IO151 have been remapped to 16-23 the actuall number to the shift registers
-
+The I/Os are outputs only. Designed for use with the MKS TinyBee however the library could be modified to work with other boards using shift registers as well.
+Access to IO144-IO151 can be done using the comands getIO() and setIO() IO144-IO151 have been remapped to 16-23 the actual number on the shift registers.
+Designed to make one step per cpu cycle.
 
 **Example**
 ```
