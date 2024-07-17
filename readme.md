@@ -1,4 +1,4 @@
-= Stepper Library for use with mkstinybee =
+**Stepper Library for use with mkstinybee**
 
 Library for managing stepper motors connected to a MKS tinybee
 because all I/Os 128-151 are sent through the shift registers 74HC595 it was easier create a library handle the steppers and the I/Os 144-151 as a standard library like acellstepper would not work.
