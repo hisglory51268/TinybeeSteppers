@@ -41,15 +41,15 @@ void setup() {
   
   TBSR.set_powersave(0,3);
   TBSR.set_speed(48,3);
-  TBSR.set_default_direction("CCW", 3);
+  TBSR.set_default_direction(1, 3);
   
   TBSR.set_powersave(0,2);
   TBSR.set_speed(48,2);
-  TBSR.set_default_direction("CCW", 4);
+  TBSR.set_default_direction(0, 4);
   
   TBSR.set_powersave(0,5);
   TBSR.set_speed(48,5);
-  TBSR.set_default_direction("CCW", 5);
+  TBSR.set_default_direction(0, 5);
 
 
 fwdtimeout = millis() + 5000;
